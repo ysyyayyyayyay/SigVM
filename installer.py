@@ -12,11 +12,11 @@ def savejson(json):
 #####################
 
 Head="""
-# BlobeVM Installer
+# SigVM Installer
 
-> BlobeVM (Powered by DesktopOnCodespaces)
+> SigVM (Powered by DesktopOnCodespaces)
 
-BlobeVM is a Virtual Machine that...
+SigVM is a Virtual Machine that...
 * Runs entirely in a web browser
 * Is unblocked
 * Has Windows app support
@@ -26,7 +26,7 @@ BlobeVM is a Virtual Machine that...
 * Is very fast
 """
 InstallHead="""
-# BlobeVM Installer
+# SigVM Installer
 """     
 
 LINES = ["KDE Plasma (Heavy)", "XFCE4 (Lightweight)", "I3 (Very Lightweight)", "GNOME 42 (Very Heavy)", "Cinnamon", "LXQT"]
@@ -47,6 +47,7 @@ class InstallScreen(Screen):
             ("Discord", 3, True),
             ("Steam", 4, True),
             ("Minecraft", 5, True),
+            ("Badlion", 6, True),
             id="defaultapps"
         ),),
         Vertical (
