@@ -41,13 +41,13 @@ class InstallScreen(Screen):
         Vertical (
          Label("Default Apps (you should keep them)"),
          SelectionList[int]( 
-            ("Wine", 0, True),
-            ("Chrome", 1, True),
-            ("Xarchiver", 2, True),
-            ("Discord", 3, True),
-            ("Steam", 4, True),
+            ("Wine", 0, False),
+            ("Chrome", 1, False),
+            ("Xarchiver", 2, False),
+            ("Discord", 3, False),
+            ("Steam", 4, False),
             ("Minecraft", 5, True),
-            ("Badlion", 6, True),
+            ("Badlion", 6, False),
             id="defaultapps"
         ),),
         Vertical (
@@ -73,7 +73,7 @@ class InstallScreen(Screen):
         yield Vertical (
          Horizontal(
             Label("\nDesktop Environement :"),
-            Select(id="de", value="KDE Plasma (Heavy)", options=((line, line) for line in LINES)),
+            Select(id="de", value="XFCE4 (Lightweight)", options=((line, line) for line in LINES)),
         ),)
         yield Horizontal (
             Button.error("Back", id="back"),

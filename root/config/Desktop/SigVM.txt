@@ -8,3 +8,5 @@ SigVM is a Virtual Machine that...
 * Can run games with almost no lag
 * Can Bypass School Network
 * Is very fast
+
+To Install SigClient, run the following code in the terminal:
