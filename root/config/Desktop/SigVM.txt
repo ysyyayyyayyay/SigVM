@@ -9,4 +9,5 @@ SigVM is a Virtual Machine that...
 * Can Bypass School Network
 * Is very fast
 
-To Install SigClient, run the following code in the terminal:
+To Install SigClient, follow the following instructions:
+1. 
