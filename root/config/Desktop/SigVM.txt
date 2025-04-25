@@ -9,5 +9,10 @@ SigVM is a Virtual Machine that...
 * Can Bypass School Network
 * Is very fast
 
-To Install SigClient, follow the following instructions:
-1. 
+SigVM has the following capabilities:
+1. most windows apps
+2. 1.8.9 hypixel modded SigClient
+3. 1.21.4 hypixel modded SigClient
+4. 1.21.5 vanilla
+5. Fortnite(download from browser)
+6. Valorant(download from browser)

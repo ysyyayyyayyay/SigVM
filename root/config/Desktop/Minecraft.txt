@@ -1,0 +1,15 @@
+To obtain 1.8.9 SigClient follow the following instructions:
+1. Work in progress
+2. Not Done yet
+3. plz dont tell me to hurry up cuz i won't
+To obtaun 1.21.4 SigClient follow the following instructions:
+0. open the terminal
+1. run [sudo apt update]
+2. run [sudo apt install default-jre]
+3. run [sudo apt --fix-broken install]
+4. run [java -jar fabric.jar]
+5. follow the onscreen instructions to install fabric 1.21.4
+6. run minecraft and make sure you use the fabric icon
+7. enjoy
+8. to get more mods put them in the mods folder
+9. download ur own textures i wont do it for u
